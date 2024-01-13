@@ -8,11 +8,14 @@
     --body-color:#efefef;
     --nav-color: #1876f2;
     --bg-color: #fff;
+    --manu-color:#efefef;
+    
 }
 .dark-theme{
     --body-color:#0a0a0a;
     --nav-color: #000;
     --bg-color: #000;
+    --manu-color:#2e1603;
 }
 body{
     background: var(--body-color);
@@ -412,7 +415,7 @@ width: fit-content;
     position: absolute;
     width: 90%;
     max-width: 350px;
-    background: var(--bg-color);
+    background: var(--manu-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     border-radius: 4px;
     overflow: hidden;
